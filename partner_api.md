@@ -422,6 +422,7 @@ Returns the order status
         "created": "2016-08-01T13:12:11Z",
         "status": "SHIPPED",
         "tracking_number": "9361289878166149570033",
+        "ship_date": "2016-09-04",
         "address": {
             "first_name": "Loyal",
             "last_name": "Customer",
