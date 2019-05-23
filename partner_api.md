@@ -1,5 +1,24 @@
 # Example Partner API
 
+**Table of Contents**
+
+- [Staging and Production Environments](#staging-and-production-environments)
+- [Security and Authentication](#security-and-authentication)
+- [JSON Response Envelope](#json-response-envelope)
+- [Errors](#errors)
+- [Request Formats](#request-formats)
+- [JSON Representation](#json-representation)
+- [API Versioning](#api-versioning)
+- [API Endpoints](#api-endpoints)
+    - [GET `/v1/stores`](#get-v1stores)
+    - [GET `/v1/stores/{id}`](#get-v1storesid)
+    - [GET `/v1/stores/{id}/merch`](#get-v1storesidmerch)
+    - [POST `/v1/order_previews`](#post-v1order_previews)
+    - [POST `/v1/orders`](#post-v1orders)
+    - [GET `/v1/orders/{order_id}`](#get-v1ordersorder_id)
+    - [PATCH `/v1/orders/{order_id}`](#patch-v1ordersorder_id)
+    - [POST `/v1/orders/{order_id}/cancel`](#post-v1ordersorder_idcancel)
+
 ## Staging and Production Environments
 
 Merchbar believes strongly in testing our integrations rigorously before enabling them on production data, so we ask that all of our partners set up a staging environment in addition to their production API servers.
