@@ -57,7 +57,7 @@ If an endpoint supports pagination, an additional `pagination` key should be ret
     }
 }
 ```
-
+If a request specifies a `page` parameter exceeding the `total_pages`, the response should return a 200 status and an empty data array.
 
 ## Errors
 
