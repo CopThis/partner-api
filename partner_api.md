@@ -49,7 +49,7 @@ If an endpoint supports pagination, an additional `pagination` key should be ret
 
 ```json
 {
-    "data": { },
+    "data": [ ],
     "pagination": {
         "current_page": 1,
         "per_page": 20,
