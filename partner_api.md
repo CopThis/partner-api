@@ -349,7 +349,7 @@ Note: Merchbar offers international shipping with a number of our partners. If y
 
 Creates a new order. If any requested item is no longer available, the entire order should fail.
 
-The `status` field on the returned order can be set to any string. Preferred values are as follows.
+The `status` field on the returned order indicates the order's progress from receipt to fulfillment. Preferred values are as follows.
 * `RECEIVED` - an order's state immediately after acceptance
 * `SHIPPED` - this state should only be set when a tracking number can be provided in the response as well
 * `CANCELLED`
